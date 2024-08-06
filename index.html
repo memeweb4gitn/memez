@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <img ref=
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>are you gay</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Are you gay?</h1>
+    <p id="description">How gay are you? Please fill this form out.</p>
+
+    <form id="survey-form">
+
+        <!-- Name Field -->
+        <label id="name-label" for="name">Name:</label>
+        <input id="name" type="text" placeholder="Enter your name" required>
+
+        <!-- Email Field -->
+        <label id="email-label" for="email">Email:</label>
+        <input id="email" type="email" placeholder="Enter your email" required>
+
+        <!-- Number Field -->
+        <label id="number-label" for="number">Age:</label>
+        <input id="number" type="number" placeholder="Enter your age" min="1" max="12" required>
+
+        <!-- Dropdown Field -->
+        <label for="dropdown">Which option best fits?</label>
+        <select id="dropdown" required>
+            <option value="" disabled selected>Select an option</option>
+            <option value="i-am-gay">I am gay</option>
+            <option value="cf-esti-goala">Cf esti goala?</option>
+            <option value="you-are-gay">Full You are gay</option>
+            <option value="esti-prost">Esti prost</option>
+            <option value="bruh">Bruh</option>
+        </select>
+
+        <!-- Radio Buttons -->
+        <p>Would you recommend this service to your pookie?</p>
+        <input type="radio" id="ye" name="recommend" value="ye">
+        <label for="ye">ye</label><br>
+        <input type="radio" id="ニュー" name="recommend" value="ニュー">
+        <label for="ニュー">ニュー</label><br>
+        <input type="radio" id="hmmm" name="recommend" value="hmmm">
+        <label for="hmmm">hmmm</label><br>
+        <input type="radio" id="still-thinking" name="recommend" value="still-thinking">
+        <label for="still-thinking">I am still thinking pookie-dookie</label><br>
+
+        <!-- Checkboxes -->
+        <p>What do you like most about our service pookie? (Check all that apply)</p>
+        <input type="checkbox" id="gayness" name="features" value="gayness">
+        <label for="gayness">Gayness</label><br>
+        <input type="checkbox" id="idiotism" name="features" value="idiotism">
+        <label for="idiotism">Idiotism</label><br>
+
+        <!-- Textarea -->
+        <label for="comments">Any comments or suggestions pookie?</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments here..."></textarea><br>
+
+        <!-- Submit Button -->
+        <button id="submit" type="submit">Submit</button>
+    </form>
+</body>
+</html>
